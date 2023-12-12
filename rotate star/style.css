@@ -1,0 +1,51 @@
+body{
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.r1{
+   
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    animation: spin 25s infinite  linear ;
+    box-shadow: red 0px 0px 155px 0px;
+
+    
+}
+.r2{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+    box-shadow: red 0px 0px 155px 0px;
+
+    
+}
+.r3{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transform: rotate(22.5deg);
+    box-shadow: red 0px 0px 155px 0px;
+
+}
+.r4{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    transform: rotate(135deg);
+    
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
